@@ -1,0 +1,99 @@
+/* NIMISH SARATHE */
+/* IMPOT GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+.heading{
+    text-align: center;
+    
+}
+.heading:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color: #8A6CFF;
+    
+    
+
+}
+body{
+    background: #E3F2FD;
+}
+.container{
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mode{
+    position: fixed;
+    right: 3%;
+    text-align: center;
+
+}
+.container .color{
+    list-style: none;
+    margin: 13px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(52, 87, 220, 0.08);
+    transition: transform 0.3s ease;
+}
+.container .color:active{
+    transform: scale(0.95);
+}
+.color .rect-box{
+    width: 185px;
+    height: 188px;
+    background: #8A6CFF;
+}
+.color:hover .rect-box{
+    filter: brightness(106%);
+}
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+.color .hex-value{
+    font-size: 1.15rem;
+    color: #444;
+    display: block;
+    margin: 12px 0 8px;
+    font-weight: 500;
+}
+.refresh-btn{
+    outline: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    background:#8A6CFF;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 15x 25px rgba(52, 87, 220, 0.2);
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    
+
+}
+
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
